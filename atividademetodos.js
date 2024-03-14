@@ -1,10 +1,11 @@
 //10 métodos de Array em JavaScript
 
-//Método 1: .concat()
-//Utilizado para juntar dois ou mais arrays, e nos retorna um novo array
+//Método 2: .join()
+//Utilizado para juntar todos os elementos de array
+//Em um string e retorna essa string
 
-const array = [1, 2, 3];
-const newArray = array.concat([4, 5]);
+const array = ["a", "b", "c"];
+const string = array.join("-");
 
 console.log(array);
-console.log(newArray);
+console.log(string);
