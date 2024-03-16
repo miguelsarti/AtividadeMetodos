@@ -1,23 +1,21 @@
 //10 métodos de Array em JavaScript
 
-//Método 2: .join()
-//Utilizado para juntar todos os elementos de array
-//Em um string e retorna essa string.
+//Método 3: .reverse()
+//Utilizado para inverter o array
 
-//Exemplo 1
-const array = ["a", "b", "c"];
-const string = array.join("-");
+console.log("Exemplo 1");
 
-console.log("Exemplo 1")
-
+const array = ["a", "b", "c", "d", "e"];
 console.log(array);
-console.log(string);
 
-//Exemplo 2
-const array1 = ["metodo", "de", "array"];
-const string1 = array1.join("_");
+array.reverse();
+console.log(array);
 
 console.log("Exemplo 2");
 
+const array1 = ["1", "2", "3", "4", "5"];
 console.log(array1);
-console.log(string1);
+
+array1.reverse();
+console.log(array1);
+
