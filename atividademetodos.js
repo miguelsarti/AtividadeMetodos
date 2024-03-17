@@ -1,23 +1,35 @@
 //10 métodos de Array em JavaScript
 
-//Método 9: .fill()
-//Utilizado para preencher os elementos de acordo
-//com a posição desejada
+//Método 10: .splice()
+//Utilizado para alterar qualquer coisa do array,
+//como por exemplo adicionar, remover ou substituir
 
-//Exemplo 1 
+//Exemplo 1: Adicionando
 
 console.log("Exemplo 1");
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-fruits.fill("Kiwi", 0, 2);
+const frutas = ['maçã', 'banana', 'laranja'];
 
-console.log(fruits);
+frutas.splice(1, 0, 'uva', 'pera'); 
 
-//Exemplo 2
+console.log(frutas);
+
+//Exemplo 2: Removendo
 
 console.log("Exemplo 2");
 
-const numbers = ["10", "20", "30", "40", "50"];
-numbers.fill("25", 1, 3);
+const numeros = [1, 2, 3, 4, 5];
 
-console.log(numbers);
+numeros.splice(2, 2);
+
+console.log(numeros);
+
+//Exemplo 3: Substituindo
+
+console.log("Exemplo 3");
+
+const cores = ['vermelho', 'verde', 'azul'];
+
+cores.splice(2, 2, 'amarelo');
+
+console.log(cores);
