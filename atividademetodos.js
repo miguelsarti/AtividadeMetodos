@@ -1,25 +1,22 @@
 //10 métodos de Array em JavaScript
 
-//Método 7: .with()
-//Utilizado para adicionar elementos em uma array
-//sem alterar a array original.
+//Método 8: .sort()
+//Utilizado para organizar os elementos de uma array
+//em ordem alfabética ou númerica
 
-//Exemplo 1:
-
+//Exemplo 1
 console.log("Exemplo 1");
 
-const months = ["January", "February", "March", "April"];
-const myMonths = months.with(3, "May");
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
 
-console.log(months);
-console.log(myMonths);
+console.log(fruits);
 
-//Exemplo 2:
+//Exemplo 2
 
-console.log("Exemplo 2");
+console.log("Exmeplo 2");
 
-const months1 = ["4", "8", "12", "13", "20"];
-const myMonths1 = months1.with(3, "16");
+const fruits1 = ["2", "4", "3", "1"];
+fruits1.sort();
 
-console.log(months1);
-console.log(myMonths1);
+console.log(fruits1);
