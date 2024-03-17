@@ -1,6 +1,7 @@
 //10 métodos de Array em JavaScript
 
-//Método 7:Utilizado para adicionar elementos em uma array
+//Método 7: .with()
+//Utilizado para adicionar elementos em uma array
 //sem alterar a array original.
 
 //Exemplo 1:
